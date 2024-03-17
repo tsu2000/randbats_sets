@@ -7,7 +7,7 @@ from PIL import Image
 from streamlit_extras.badges import badge
 
 # Get random battle data from API
-@st.cache_resource
+@st.cache_data
 def get_randbats_data():
     # Obtaining up-to-date data for application
     url = 'https://pkmn.github.io/randbats/data/gen9randombattle.json'
@@ -59,7 +59,7 @@ def main():
         # Set row index names
         df.rename(index = {'abilities': 'Ability', 'items': 'Possible Held Items', 'teraTypes': 'Possible Tera Types', 'moves': 'Possible Moves'}, inplace = True)
 
-        st.table(df, use_container_width = True)
+        st.dataframe(df, use_container_width = True)
     
     
 if __name__ == "__main__":
