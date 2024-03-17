@@ -59,7 +59,7 @@ def main():
         # Set row index names
         df.rename(index = {'abilities': 'Ability', 'items': 'Possible Held Items', 'teraTypes': 'Possible Tera Types', 'moves': 'Possible Moves'}, inplace = True)
 
-        st.table(df)
+        st.dataframe(df)
     
     
 if __name__ == "__main__":
