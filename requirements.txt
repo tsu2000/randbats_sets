@@ -1,4 +1,4 @@
-streamlit==1.32.0
+streamlit==1.32.2
 streamlit_extras==0.2.4
 pandas==2.0.3
 requests==2.31.0
