@@ -60,7 +60,7 @@ def main():
         df.rename(index = {'abilities': 'Ability', 'items': 'Possible Held Items', 'teraTypes': 'Possible Tera Types', 'moves': 'Possible Moves'}, inplace = True)
 
         st.dataframe(df,
-                     column_config = {"Values": st.column_config.TextColumn(width = "large")}
+                     column_config = {"Values": st.column_config.ListColumn(width = "large")}
                     )
     
     
