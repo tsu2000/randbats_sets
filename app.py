@@ -31,7 +31,7 @@ def main():
     with col3:
         badge(type = 'github', name = 'tsu2000/randbats_sets', url = 'https://github.com/tsu2000/randbats_sets')
 
-    st.markdown('### View all sets in Pokémon Showdown Random Battles')
+    st.markdown('### All sets in Pokémon Showdown Random Battles')
 
     # Get data
     data = get_randbats_data()
