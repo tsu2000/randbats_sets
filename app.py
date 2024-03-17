@@ -59,7 +59,9 @@ def main():
         # Set row index names
         df.rename(index = {'abilities': 'Ability', 'items': 'Possible Held Items', 'teraTypes': 'Possible Tera Types', 'moves': 'Possible Moves'}, inplace = True)
 
-        st.dataframe(df)
+        st.dataframe(df,
+                     column_config = {"Values": st.column_config.TextColumn(width = "large")}
+                    )
     
     
 if __name__ == "__main__":
