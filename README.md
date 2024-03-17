@@ -4,4 +4,4 @@ Sets for Pokémon in Pokémon Showdown Random Battles. Data taken from [here](ht
 
 **Link to Web App**:
 
-[<img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg">](<https://randbats.streamlit.app>){:target="_blank"}
+[<img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg">](<https://randbats.streamlit.app>)
